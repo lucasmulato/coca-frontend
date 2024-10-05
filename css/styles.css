@@ -1,0 +1,198 @@
+/* Variáveis CSS */
+:root {
+    --primary-color: #f06543;
+    --secondary-color: #6c757d;
+    --background-color: #fff5f2;
+    --light-gray: #f8f8f8;
+    --blue: #007bff;
+    --gray: #ccc;
+}
+
+/* Estilos Globais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: var(--background-color);
+    color: #333;
+    padding: 0;
+    margin: 0;
+}
+
+h1, h2, h3 {
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Container Comum */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+/* Headings */
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 24px;
+    color: var(--primary-color);
+}
+
+/* Seções de Layout */
+.section {
+    padding: 40px 0;
+    border-bottom: 1px solid var(--gray);
+}
+
+/* Estratégias de Otimização */
+.strategy {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px 0;
+}
+
+.strategy-title {
+    font-size: 18px;
+    font-weight: bold;
+    width: 30%;
+}
+
+.strategy-description {
+    font-size: 16px;
+    width: 65%;
+}
+
+.button {
+    display: inline-block;
+    background-color: var(--primary-color);
+    color: white;
+    padding: 15px 30px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.button:hover {
+    background-color: #d04f33;
+}
+
+/* FAQ e Perguntas */
+.faq {
+    text-align: left;
+}
+
+.faq-item {
+    margin-bottom: 20px;
+}
+
+.faq-item h3 {
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.faq-item h3 span {
+    font-size: 24px;
+    color: var(--primary-color);
+}
+
+.faq-item h3 span.plus {
+    color: var(--secondary-color);
+}
+
+/* Equipe */
+.team {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.team-member {
+    text-align: center;
+    width: 22%;
+    margin-bottom: 20px;
+}
+
+.team-member .profile {
+    background-color: #d4e7d0;
+    width: 100%;
+    padding-top: 100%;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.team-member h3 {
+    font-size: 18px;
+}
+
+.team-member p {
+    font-size: 14px;
+    color: var(--secondary-color);
+}
+
+/* Footer */
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    background-color: var(--light-gray);
+    border-top: 1px solid var(--gray);
+}
+
+.social-icons a {
+    color: black;
+    margin-right: 20px;
+}
+
+.social-icons a:hover {
+    color: var(--primary-color);
+}
+
+.footer .links a {
+    margin-right: 20px;
+}
+
+.footer .copyright {
+    color: black;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .strategy, .team {
+        flex-direction: column;
+    }
+
+    .strategy-title, .strategy-description {
+        width: 100%;
+    }
+
+    .footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer .social-icons {
+        margin-bottom: 20px;
+    }
+
+    .footer .links {
+        margin-bottom: 20px;
+    }
+}
