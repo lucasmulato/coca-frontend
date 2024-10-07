@@ -1,23 +1,29 @@
 /* Hero */
+body {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two equal columns */
+    grid-template-rows: auto; /* Adjust rows based on content */
+    height: 100vh; /* Full height of viewport */
+    margin: 0;
+}
 .header {
     display: flex;
     align-items: center;
-    width: 50%;
     padding: 10px;
+    grid-column: 1 / 2; /* Span the first column */
 }
 .header img {
-    height: 50px; 
+    height: 50px;
     margin-right: 10px;
 }
 .header nav a {
-    margin: 10px;
+    margin: 0 10px;
     text-decoration: none;
 }
 .right-image {
-    width: 50%;
     background: url('https://lucasmulato.github.io/coca-frontend/img/Image.png') no-repeat center center;
     background-size: cover;
-    height: 100vh;
+    grid-column: 2 / 3; /* Span the second column */
 }
 
 /* Variáveis CSS */
