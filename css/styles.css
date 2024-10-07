@@ -1,20 +1,19 @@
 /* Hero */
+
 body {
+    margin: 0;
     display: flex;
-    align-items: center;
-    margin: 0px;
     height: 100vh;
+    align-items: center;
 }
 .header {
     display: flex;
     align-items: center;
-    justify-content: flex-start;
     width: 50%;
-    padding: 10px; /* Add some padding for spacing */
-    border-radius: 5px;
+    padding: 10px;
 }
 .header img {
-    height: 50px; /* Adjust as needed */
+    height: 50px; 
     margin-right: 10px;
 }
 .header nav a {
@@ -25,9 +24,8 @@ body {
     width: 50%;
     background: url('https://lucasmulato.github.io/coca-frontend/img/Image.png') no-repeat center center;
     background-size: cover;
-    height: 100vh; /* Full height of viewport */
+    height: 100vh;
 }
-
 /* Variáveis CSS */
 :root {
     --primary-color: #f06543;
