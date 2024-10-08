@@ -8,7 +8,6 @@ body {
     display: flex;
     align-items: center;
     padding: 10px;
-    grid-column: 1 / 2; /* Span the first column */
 }
 .header img {
     height: 50px;
@@ -21,7 +20,6 @@ body {
 .right-image {
     background: url('https://lucasmulato.github.io/coca-frontend/img/Image.png') no-repeat center center;
     background-size: cover;
-    grid-column: 2 / 3; /* Span the second column */
 }
 
 /* Variáveis CSS */
