@@ -1,6 +1,7 @@
 /* Hero */
 body {
     display: flex;
+    flex-direction: column;
     height: 100vh; /* Full height of viewport */
     margin: 0;
 }
