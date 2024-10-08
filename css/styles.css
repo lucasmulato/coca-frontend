@@ -1,8 +1,6 @@
 /* Hero */
 body {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr); /* Two equal columns */
-    grid-template-rows: auto; /* Adjust rows based on content */
+    display: flex;
     height: 100vh; /* Full height of viewport */
     margin: 0;
 }
