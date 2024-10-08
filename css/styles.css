@@ -6,21 +6,21 @@ body {
     height: 100vh; /* Full height of viewport */
     margin: 0;
 }
-.header {
+#header a {
     display: flex;
     align-items: center;
     padding: 10px;
     justify-content: space-between;
 }
-.header img {
+#header img {
     height: 50px;
     margin-right: 10px;
 }
-.header nav a {
+#header nav a {
     margin: 0 23px;
     text-decoration: none;
 }
-.right-image {
+#right-image {
     background: url('https://lucasmulato.github.io/coca-frontend/img/Image.png') no-repeat center right;
     background-size: cover;
 }
@@ -62,8 +62,11 @@ a {
 /* Container Comum */
 .container {
     width: 80%;
+    display: flex;
     margin: 0 auto;
     padding: 50px 0;
+    flex-direction: column;
+
 }
 
 /* Headings */
