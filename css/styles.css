@@ -2,6 +2,7 @@
 body {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     height: 100vh; /* Full height of viewport */
     margin: 0;
 }
@@ -15,11 +16,11 @@ body {
     margin-right: 10px;
 }
 .header nav a {
-    margin: 0 66px;
+    margin: 0 45px;
     text-decoration: none;
 }
 .right-image {
-    background: url('https://lucasmulato.github.io/coca-frontend/img/Image.png') no-repeat center center;
+    background: url('https://lucasmulato.github.io/coca-frontend/img/Image.png') no-repeat center right;
     background-size: cover;
 }
 
