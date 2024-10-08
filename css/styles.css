@@ -1,17 +1,19 @@
 /* Hero */
 body {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-between;
     height: 100vh; /* Full height of viewport */
     margin: 0;
 }
-#header a {
+#header, #header a {
     display: flex;
     padding: 10px;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    width: 50%;
+    border-radius: 10px;
 }
 #header img {
     height: 50px;
