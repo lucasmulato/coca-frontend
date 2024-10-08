@@ -8,8 +8,9 @@ body {
 }
 #header a {
     display: flex;
-    align-items: center;
     padding: 10px;
+    flex-direction: row;
+    align-items: center;
     justify-content: space-between;
 }
 #header img {
@@ -19,7 +20,6 @@ body {
 #header nav a {
     margin: 0 23px;
     text-decoration: none;
-    flex-direction: row;
 }
 #right-image {
     background: url('https://lucasmulato.github.io/coca-frontend/img/Image.png') no-repeat center right;
