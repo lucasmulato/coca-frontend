@@ -1,7 +1,6 @@
 /* Hero */
 body {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     height: 100vh; /* Full height of viewport */
     margin: 0;
@@ -27,6 +26,8 @@ body {
     background: url('https://lucasmulato.github.io/coca-frontend/img/Image.png') no-repeat center right;
     background-size: cover;
 }
+
+.container-r1
 
 /* Variáveis CSS */
 :root {
