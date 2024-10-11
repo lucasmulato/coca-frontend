@@ -10,10 +10,17 @@ body {
     display: flex;
     padding: 10px;
     flex-direction: row;
-    align-items: left;
+    align-items: center;
     justify-content: space-between;
     width: 50%;
     border-radius: 10px;
+}
+#header a {
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    justify-content: space-between;
+
 }
 #header img {
     height: 50px;
