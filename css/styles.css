@@ -24,7 +24,7 @@ body {
     text-decoration: none;
 }
 #right-image {
-    background: url('https://lucasmulato.github.io/coca-frontend/img/Image.png') no-repeat center right;
+    background: url('https://lucasmulato.github.io/coca-frontend/img/Image.png') no-repeat center center;
     background-size: cover;
 }
 
