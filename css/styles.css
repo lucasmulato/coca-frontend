@@ -10,7 +10,7 @@ body {
     display: flex;
     padding: 10px;
     flex-direction: row;
-    align-items: center;
+    align-items: left;
     justify-content: space-between;
     width: 50%;
     border-radius: 10px;
@@ -23,6 +23,7 @@ body {
     margin: 0 23px;
     text-decoration: none;
     flex-wrap: row;
+    flex-direction: row;
 }
 #right-image {
     background: url('https://lucasmulato.github.io/coca-frontend/img/Image.png') no-repeat center center;
