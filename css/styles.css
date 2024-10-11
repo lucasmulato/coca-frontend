@@ -6,7 +6,7 @@ body {
     height: 100vh; /* Full height of viewport */
     margin: 0;
 }
-#header, #header a {
+#header {
     display: flex;
     padding: 10px;
     flex-direction: row;
