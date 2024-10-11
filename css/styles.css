@@ -1,6 +1,7 @@
 /* Hero */
 body {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     height: 100vh; /* Full height of viewport */
     margin: 0;
