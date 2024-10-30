@@ -30,11 +30,16 @@ body {
     display: flex;
     margin: 0 23px;
     text-decoration: none;
-    flex-wrap: row; 
+    flex-wrap: row;
 }
 #right-image {
     background: url('https://lucasmulato.github.io/coca-frontend/img/Image.png') no-repeat center center;
     background-size: cover;
+}
+.link {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
 }
 
 /* Variáveis CSS */
