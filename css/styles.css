@@ -33,6 +33,7 @@ body {
     flex-wrap: row;
     flex-direction: row;
     justify-content: space-between;
+    justify-items: center;
 }
 #right-image {
     background: url('https://lucasmulato.github.io/coca-frontend/img/Image.png') no-repeat center center;
