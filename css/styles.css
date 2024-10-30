@@ -6,7 +6,7 @@ body {
     margin: 0;
 }
 /* Hero */
-#header {
+.header {
     display: flex;
     padding: 10px;
     flex-direction: row;
@@ -15,17 +15,17 @@ body {
     width: 25%;
     border-radius: 10px;
 }
-#header a {
+.header a {
     display: flex;
     flex-direction: row;
     align-items: left;
     justify-content: space-between;
 
 }
-#header img {
+.header img {
     height: 50px;
 }
-#header nav a {
+.header nav a {
     margin: 0 23px;
     text-decoration: none;
     flex-wrap: row;
