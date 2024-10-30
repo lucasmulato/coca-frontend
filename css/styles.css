@@ -26,20 +26,16 @@ body {
     height: 50px;
     align-items: left;
 }
-.header nav a {
+.header nav{
     display: flex;
     margin: 0 23px;
     text-decoration: none;
     flex-wrap: row;
+    flex-direction: row;
 }
 #right-image {
     background: url('https://lucasmulato.github.io/coca-frontend/img/Image.png') no-repeat center center;
     background-size: cover;
-}
-.link {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
 }
 
 /* Variáveis CSS */
