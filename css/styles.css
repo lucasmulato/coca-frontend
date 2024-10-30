@@ -22,17 +22,15 @@ body {
     justify-content: space-between;
 
 }
-.header h3{
-    align-items: left;
-}
 .header img {
     height: 50px;
     align-items: left;
 }
 .header nav a {
+    display: flex;
     margin: 0 23px;
     text-decoration: none;
-    flex-wrap: row;
+    flex-wrap: row; 
 }
 #right-image {
     background: url('https://lucasmulato.github.io/coca-frontend/img/Image.png') no-repeat center center;
