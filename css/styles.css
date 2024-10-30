@@ -12,6 +12,8 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    justify-items: normal;
+    text-justify: auto;
     width: 50%;
     border-radius: 10px;
 }
@@ -33,7 +35,6 @@ body {
     flex-wrap: row;
     flex-direction: row;
     justify-content: space-between;
-    justify-items: center;
 }
 #right-image {
     background: url('https://lucasmulato.github.io/coca-frontend/img/Image.png') no-repeat center center;
