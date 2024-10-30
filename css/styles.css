@@ -16,7 +16,6 @@ body {
     text-justify: auto;
     width: 50%;
     border-radius: 10px;
-    margin-right: 10px;
 }
 .header a {
     display: flex;
